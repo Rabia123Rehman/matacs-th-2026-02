@@ -1,0 +1,12 @@
+[
+  { "proposal": "A", "rank": 1, "status": "ranked", "score": 98.0,
+    "reason": "Passes both mandatory checks, strongest on experience, timeline (12 weeks) and team, with a competitive $238,000 price." },
+  { "proposal": "E", "rank": 2, "status": "ranked", "score": 91.7,
+    "reason": "Passes mandatory checks, best workmanship warranty (12 years) and full team plan, but fewer qualifying installs (8) and a slower 13-week schedule than A." },
+  { "proposal": "D", "rank": null, "status": "flagged", "score": null,
+  "reason": "Meets mandatory criteria and has the lowest price, but states no schedule so the 16-week limit cannot be confirmed; sent to a human to clarify with the bidder (provisional score about 76.2)." }, 
+  { "proposal": "C", "rank": null, "status": "flagged", "score": null,
+    "reason": "Meets mandatory criteria, but the proposal contains text trying to manipulate automated reviewers; ignored and sent to a human (content-only provisional score about 84.8, which would place it 3rd)." },
+  { "proposal": "B", "rank": null, "status": "ineligible", "score": null,
+    "reason": "Fails the mandatory Ontario electrical licence check because the bidder does not hold it (subcontractor to be confirmed after award); the low price does not matter." }
+]

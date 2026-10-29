@@ -1,0 +1,14 @@
+{
+  "category": "Commercial Solar Installation",
+  "version": 1,
+  "budget_ceiling": 260000,
+  "max_weeks": 16,
+  "mandatory": ["ontario_licence_held", "wsib_confirmed", "insurance_5m_confirmed"],
+  "weights": {"experience": 30, "price": 25, "timeline": 15, "warranty": 15, "team": 15},
+  "params": {
+    "experience_full_marks_at": 10,
+    "panel_warranty_full_years": 25,
+    "workmanship_full_years": 12,
+    "team_items": ["named_lead", "crew_stated", "safety_plan", "monitoring_plan"]
+  }
+}

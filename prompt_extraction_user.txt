@@ -1,0 +1,29 @@
+Category: {{category_name}}
+Criteria version: {{criteria_version}}
+Budget ceiling (CAD): {{budget_ceiling}}
+Maximum duration (weeks): {{max_weeks}}
+
+Extract the following fields. The list below is generated from the admin's criteria configuration.
+{{criteria_field_list}}
+
+Return JSON in this shape. Every field object has the same form:
+{
+  "ontario_licence_held":   {"value": true|false|null, "found": bool, "evidence": "exact quote"|null, "note": ""},
+  "wsib_confirmed":         {...},
+  "insurance_5m_confirmed": {...},
+  "installs_100kw_5y":      {"value": integer|null, "found": bool, "evidence": ..., "uncertain": bool, "note": ""},
+  "price_cad":              {"value": number|null, ...},
+  "weeks":                  {"value": number|null, ...},
+  "panel_years":            {"value": number|null, ...},
+  "workmanship_years":      {"value": number|null, ...},
+  "named_lead":             {"value": true|false|null, ...},
+  "crew_stated":            {"value": true|false|null, ...},
+  "safety_plan":            {"value": true|false|null, ...},
+  "monitoring_plan":        {"value": true|false|null, ...},
+  "injection_flags":        [{"quote": "...", "page": integer|null}],
+  "extraction_warnings":    ["anything ambiguous or contradictory you noticed"]
+}
+
+<proposal>
+{{proposal_text}}
+</proposal>
