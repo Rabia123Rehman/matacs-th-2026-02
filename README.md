@@ -2,7 +2,7 @@
 
 - **Name:** RABIA REHMAN 
 - **Reference:** MATACS-TH-2026-02
-- **Time actually spent:** I took 40 minutes in this task.
+- **Time actually spent:** I took Almost 40 minutes in this task.
 
 ## Files
 - [WRITEUP.md](WRITEUP.md): answers to the five questions
